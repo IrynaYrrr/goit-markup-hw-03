@@ -58,7 +58,7 @@ span {
 }
 
 .contacts {
-  color: var(--footer-color);
+  color: var(--primary-text-color);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.17;
