@@ -80,7 +80,7 @@ a {
   font-style: normal;
 }
 
-.contacts {
+.header-contacts {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14; /* line-height 16px : font-size 14px = 1.14 */
@@ -88,15 +88,18 @@ a {
   color: var(--primary-grey-color);
 }
 
-.contacts:hover,
-.contacts:focus {
-  color: var(--blue-color);
-}
-
 .footer-contacts {
+  font-size: 14px;
   line-height: 1.71; /* line-height 24px : font-size 14px = 1.71 */
   font-style: normal;
   color: var(--footer-lightgrey-color);
+}
+
+.header-contacts:hover,
+.header-contacts:focus,
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--blue-color);
 }
 
 .order-service {
@@ -109,6 +112,7 @@ a {
   font-weight: 900;
   line-height: 1.36; /* line-height 60px : font-size 44px = 1.36 */
   text-align: center;
+  text-transform: uppercase;
   color: var(--main-white-color);
 }
 
@@ -121,6 +125,7 @@ a {
   border: 0;
   border-radius: 4px;
   text-align: center;
+  cursor: pointer;
   margin-left: 600px;
   margin-bottom: 200px;
   background-color: var(--blue-color);
@@ -178,7 +183,7 @@ a {
   color: var(--primary-grey-color);
 }
 
-.button-item {
+.button-list {
   margin: 8px;
 }
 
