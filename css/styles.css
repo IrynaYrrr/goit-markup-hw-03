@@ -31,8 +31,19 @@ a {
   border-bottom: 1px solid var(--border-color);
 }
 
+.header .container {
+  display: flex;
+  align-items: center;
+  min-height: 80px;
+}
+
+.hero-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .logo-studio {
-  margin-left: 35px;
+  margin-right: 92px;
+  margin-left: 215px;
   margin-top: 10px;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
@@ -51,6 +62,10 @@ a {
 
 .site-nav .current {
   color: var(--blue-color);
+}
+
+.nav {
+  display: flex;
 }
 
 .links {
@@ -86,6 +101,18 @@ a {
   line-height: 1.14; /* line-height 16px : font-size 14px = 1.14 */
   letter-spacing: 0.02em;
   color: var(--primary-grey-color);
+}
+
+.email {
+  margin-right: 50px;
+}
+
+.number {
+  margin-right: 215px;
+}
+
+.header-connection {
+  margin-left: auto;
 }
 
 .footer-contacts {
