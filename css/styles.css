@@ -153,6 +153,7 @@ body {
   font-weight: 900;
   line-height: 1.36; /* line-height 60px : font-size 44px = 1.36 */
   text-align: center;
+  max-width: 660px;
   text-transform: uppercase;
   color: var(--main-white-color);
 }
